@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigReader {
 	
 	private static Properties prop;
-	private static final String configPath = System.getProperty("user.dir")+"\\src\\testData\\config.properties";
+	private static final String configPath ="src/testData/config.properties";
 	
 	public Properties getProperties() throws IOException {
 		FileInputStream fis = new FileInputStream(new File(configPath));
